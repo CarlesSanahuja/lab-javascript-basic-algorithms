@@ -72,4 +72,6 @@ function esPalindromo(texto){
     }
     return true;
 }
-console.log(esPalindromo(pharaseToCheck));
+if(esPalindromo(pharaseToCheck)){
+console.log(`Es un palíndromo`);
+} else{`No es un palíndromo`;}
